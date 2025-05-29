@@ -1,0 +1,14 @@
+# Ignorer les fichiers Airflow
+logs/
+.airflow/
+
+# Fichiers système ou IDE
+*.pyc
+__pycache__/
+.env
+.gcs-key.json
+*.log
+
+# Fichiers système Windows
+Thumbs.db
+.DS_Store
